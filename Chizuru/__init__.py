@@ -12,11 +12,11 @@ LOGS.setLevel(level=logging.INFO)
 #-------------------------------LIST----------------------------------------
 
 #-------------------------------VARS-----------------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN",None)
-API_ID = int(os.environ.get("API_ID",None))
-API_HASH = os.environ.get("API_HASH",None)
-MONGO_DB = os.environ.get("MONGO_DB", None)
-OWNER = int(os.environ.get("OWNER",953362604))
+BOT_TOKEN = "5698053647:AAGgW2ZOloLQEBYqTaL00TCA0VW-FQpytcg"
+API_ID = 17945796
+API_HASH = "4a05481a5da2d66f801acffc4ca5ee4b"
+MONGO_DB = "mongodb+srv://autoanimebitch:bitch@cluster0.qs6r6ux.mongodb.net/?retryWrites=true&w=majority"
+OWNER = 5152809878
 #-------------------------------DEFAULT---------------------------------------
 TRIGGERS = os.environ.get("TRIGGERS", "/").split()
 UTRIGGERS = os.environ.get("TRIGGERS", ".").split()
